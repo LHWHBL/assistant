@@ -1,10 +1,9 @@
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
-
+import orjson as json
 from orjson import *
-from orjson import __version__
 
 __all__ = (
-    "__version__",
+    # "__version__",
     "dumps",
     "Fragment",
     "JSONDecodeError",
@@ -25,3 +24,4 @@ __all__ = (
     "OPT_STRICT_INTEGER",
     "OPT_UTC_Z",
 )
+json_version = json.__version__
