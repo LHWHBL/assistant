@@ -31,3 +31,4 @@ os
 pandas
 warnings
 re
+orjson
