@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
-from .orjson import *
+from orjson import *
 from .orjson import __version__
 
 __all__ = (
