@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
 from orjson import *
-import orjson
+def get_orjson_version():
+    return orjson.__version__
 __version__ = orjson.__version__
 __all__ = (
     "__version__",
