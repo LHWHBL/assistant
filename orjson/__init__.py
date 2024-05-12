@@ -2,7 +2,7 @@
 from orjson import *
 def get_orjson_version():
     return orjson.__version__
-__version__ = orjson.__version__
+
 __all__ = (
     "__version__",
     "dumps",
