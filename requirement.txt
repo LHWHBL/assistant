@@ -28,6 +28,7 @@ transformers==4.39.2
 streamlit==1.30.0
 charset-normalizer==3.3.2
 os
+jsonpatch
 pandas
 warnings
 re
