@@ -1,7 +1,7 @@
 import datetime
 from typing import Any, Callable, Generic, Literal, TypeVar, final
 
-# from _typeshed import SupportsAllComparisons
+from _typeshed import SupportsAllComparisons
 from typing_extensions import LiteralString, Self, TypeAlias
 
 from pydantic_core import ErrorDetails, ErrorTypeInfo, InitErrorDetails, MultiHostHost
