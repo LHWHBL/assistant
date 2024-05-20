@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys as _sys
 from typing import Any as _Any
 
-from .pydantic_core import (
+from pydantic_core import (
     ArgsKwargs,
     MultiHostUrl,
     PydanticCustomError,
