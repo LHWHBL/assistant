@@ -33,3 +33,4 @@ pandas
 warnings
 re
 orjson
+pydantic_core
